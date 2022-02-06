@@ -1,7 +1,7 @@
 
 
 //var socket = io('http://localhost:3000');
-var socket = io();
+var socket = io('/');
 
 var audio_recieve = new Audio('I Phone Sms Notification.mp3');
 //var audio_sent=new Audio('Samsung notification sound - Telepathy.mp3')
